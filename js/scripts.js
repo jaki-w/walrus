@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$("document").ready(function() {
   $("p").click(function() {
     $("#walrus-showing").fadeToggle();
     $("#walrus-hidden").fadeToggle();
@@ -23,5 +23,13 @@ $(document).ready(function() {
     $("body").addClass("red-background");
   });
 
+  $("button#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("black-background");
+  });
 
+  $("button#light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("white-background");
+  });
 });

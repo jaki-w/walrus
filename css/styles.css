@@ -23,3 +23,13 @@
 .red-background {
   background-color: red;
 }
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+.white-background {
+  background-color: white;
+  color: black;
+}
